@@ -1,0 +1,31 @@
+.autoCompleteContainer{
+  position: relative;
+  background: white;
+  border-radius: .5rem;
+  color: #333;
+}
+.autoCompleteContainer input{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+.resultContainer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 0 10px #000;
+  color: black
+}
+
+.resultContainer.bottom{
+  top: 100;
+  border-radius: 0 0 1rem;
+}
+.resultContainer.top{
+  bottom: 0;
+  border-radius:  1rem 1rem 0;
+}

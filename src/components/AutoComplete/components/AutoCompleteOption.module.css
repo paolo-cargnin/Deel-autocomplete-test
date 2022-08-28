@@ -1,0 +1,8 @@
+.option{
+  padding: .4rem;
+  cursor:pointer;
+}
+.currentNavigation,
+.option:hover{
+  background: #f0f0f0;
+}
